@@ -38,7 +38,7 @@ export default function App() {
         {/* Barcode Area */}
         <View style={styles.barcodeSection}>
           <Image
-            source={{ uri: 'https://i.imgur.com/4C4yq8P.png' }} // sample barcode
+            source={{ uri: 'https://i.pinimg.com/1200x/32/12/1c/32121c4420d42b99ab213a20dbb82e04.jpg' }} // sample barcode
             style={styles.barcode}
           />
           <Text style={styles.studentId}>MAST5112</Text>
@@ -122,8 +122,8 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   barcode: {
-    width: 200,
-    height: 40,
+    width: 300,
+    height: 80,
     resizeMode: 'contain',
   },
   studentId: {
